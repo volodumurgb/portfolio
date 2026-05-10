@@ -89,7 +89,7 @@ function SkillBar({ name, pct }) {
   );
 }
 
-/* ─── PHOTO PLACEHOLDER ─── */
+/*PHOTO PLACEHOLDER*/
 function PhotoFrame() {
   return (
     <div className="photo-frame">
@@ -121,7 +121,7 @@ const DEV = {
   tagline: 'Life sucks, but code doesn\'t have to.',
   badges: ['Open to Work', 'Remote Ready', 'Open Source'],
 
-  career: 'A passionate developer with a little expirience, open to new opportunities and challenges. I thrive in dynamic environments where I can learn, grow, and contribute to impactful projects. With a strong foundation in software development and a keen eye for detail, I am eager to bring my skills and enthusiasm to a forward-thinking team.',
+  career: 'A passionate developer with a little experience, open to new opportunities and challenges. I thrive in dynamic environments where I can learn, grow, and contribute to impactful projects. With a strong foundation in software development and a keen eye for details, I am eager to bring my skills and enthusiasm to a forward-thinking team.',
 
   stats: [
     { num: '2+', label: 'Years Active' },
@@ -163,13 +163,13 @@ const DEV = {
       period: '2025 — Present',
       role: 'Focusing on new opportunities, and deep learning.',
       org: 'LNU · Lviv',
-      desc: 'Studuing at Lviv National University, majoring in Sofware Engineering. Engaging in personal projects and open source contributions to sharpen my skills and explore new technologies.',
+      desc: 'Studying at Lviv National University, majoring in Sofware Engineering. Engaging in personal projects and open source contributions to sharpen my skills and explore new technologies.',
     },
     {
       period: '2022 — 2025',
       role: 'School',
       org: 'LFML · Lviv',
-      desc: 'Lviv Physics and Mathematics Lyceum. Completed with honors,excelliing in mathemitcs, physics, and computer science. Participated in mane financial and mathemetics competetions, in region levels. After graduation, I decided to focus on my personal growth and development, exploring various technologies and honing my skills through self-directed learning and projects.',
+      desc: 'Lviv Physics and Mathematics Lyceum. Completed with honors, excelling in mathemitcs, physics, and computer science. Participated in financial and mathematics competetions. After graduation I decided to focus on my personal growth and development, exploring various technologies and honing my skills through self-directed learning and projects.',
     },
   ],
 
@@ -258,7 +258,7 @@ export default function App() {
 
         {/* WORK EXPERIENCE */}
         <section className="section fade" ref={r4}>
-          <h2 className="sec-title">Work Experience</h2>
+          <h2 className="sec-title">Professional Background</h2>
           <Ornament />
           <div className="timeline">
             {DEV.exp.map(e => (
